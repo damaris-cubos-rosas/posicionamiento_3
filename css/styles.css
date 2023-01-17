@@ -1,0 +1,52 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sticky-container {
+    width: 50%;
+    margin: 10vh auto;
+    border: 4px solid paleturquoise;
+    position: sticky;
+    top: 0;
+    height: 50vh;
+    overflow: scroll;
+}
+
+h4[class*="sticky-header"] {
+    height: 50px;
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid paleturquoise;
+} 
+
+.sticky-header-1 {
+    position: sticky;
+    top: 0;
+}
+
+.sticky-header-2 {
+    position: sticky;
+    top: 50px;
+}
+
+.sticky-header-3 {
+    position: sticky;
+    top: 100px;
+}
+
+.sticky-header-4 {
+    position: sticky;
+    top: 150px;
+}
+
+.sticky-header-5 {
+    position: sticky;
+    top: 200px;
+}
+
+p {
+    padding-left: 30px;
+    font-weight: bold;
+}
